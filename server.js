@@ -13,7 +13,7 @@ const app = express()
 app.use(express.json())
 
 app.use(cors({
-    origin: 'https://mern-todos-backend.onrender.com',
+    origin: 'https://mern-todos.onrender.com',
     // You can also use '*' to allow requests from all domains, but it's less secure.
     // Make sure to restrict it to your frontend's domain in a production environment.
 }));
