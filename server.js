@@ -1,6 +1,8 @@
 require('dotenv').config()
 const express = require("express")
+const cors = require('cors');
 const todoRouts = require('./routes/todos')
+
 
 const userRouts = require('./routes/user')
 
