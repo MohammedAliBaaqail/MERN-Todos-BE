@@ -14,7 +14,7 @@
   
 
 
-  "main": "api/server.js",
+  "main": "api/index.js",
   
 
 
